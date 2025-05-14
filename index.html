@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaStudio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background-color: #2C3E50;
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    h2, h3 {
+      font-size: 28px;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    button {
+      background-color: #3498DB;
+      color: white;
+      padding: 12px 24px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+    }
+    .pricing-section {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    .pricing-box {
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+    }
+    footer {
+      background-color: #2C3E50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Website, Done Right. In 3 Days.</h1>
+    <p>Professional websites for businesses, e-commerce stores, and personal brands — delivered fast, beautifully, and built to convert.</p>
+    <button>Get Started Now</button>
+  </header>
+
+  <section>
+    <h2>What I Offer</h2>
+    <div>
+      <h3>Business Sites</h3>
+      <p>Position your business with clarity and confidence.</p>
+    </div>
+    <div>
+      <h3>eCommerce Stores</h3>
+      <p>Sell with style through sleek product pages and smooth checkout flows.</p>
+    </div>
+    <div>
+      <h3>Personal Brand Sites</h3>
+      <p>For coaches, creators, and consultants who want to stand out.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>How It Works</h2>
+    <ol>
+      <li><strong>Discovery</strong> – Fill out a quick form about your business and what you want.</li>
+      <li><strong>Design & Build</strong> – I create a complete, customized website tailored to your needs.</li>
+      <li><strong>Review & Launch</strong> – You review. I refine. We go live. Most sites are ready within 72 hours.</li>
+    </ol>
+  </section>
+
+  <section class="pricing-section">
+    <div class="pricing-box">
+      <h3>Standard Package – $250</h3>
+      <ul>
+        <li>Up to 5 fully designed pages</li>
+        <li>Mobile-optimized layout</li>
+        <li>Contact form</li>
+        <li>7-day post-launch support</li>
+      </ul>
+    </div>
+    <div class="pricing-box">
+      <h3>SEO Boost Package – $450</h3>
+      <ul>
+        <li>Everything in Standard</li>
+        <li>On-page SEO setup</li>
+        <li>Keyword research</li>
+        <li>Optimized content structure</li>
+        <li>Google indexing setup</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Portfolio Preview</h2>
+    <p>Want to see what I can do? Example site styles: Modern Consultant, Elegant Fashion Brand, Clean E-commerce Store</p>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <p>Ready to get started? Fill out the form below and I’ll reply within 24 hours.</p>
+    <form action="mailto:novastudio@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="text" name="business" placeholder="Business Type">
+      <textarea name="message" placeholder="Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; {new Date().getFullYear()} NovaStudio. All rights reserved.
+  </footer>
+</body>
+</html>
